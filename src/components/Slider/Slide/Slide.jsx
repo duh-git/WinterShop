@@ -1,10 +1,10 @@
 import './Slide.css';
 
-export default function Slide( props ) {
+export default function Slide( {src, title} ) {
   return (
     <li className="slide">
-      <img src={props.src} alt="" />
-      <p>{props.title}</p>
+      <img src={src} alt="" />
+      <p>{title}</p>
     </li>
   );
 }
