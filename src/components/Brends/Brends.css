@@ -1,0 +1,9 @@
+.brends {
+  margin-bottom: 50px;
+  padding: 0 160px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.brends img { opacity: 0.7; }

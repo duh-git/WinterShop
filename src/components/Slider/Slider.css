@@ -1,0 +1,26 @@
+.slider-section {
+  position: relative;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+.slider {
+  display: flex;
+  gap: 25px;
+}
+
+
+.slider-section button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 32px;
+  height: 98px;
+  border: none;
+  background-color: white;
+  opacity: .9;
+}
+
+.slider-section .left-btn-slider { left: 0%; }
+.slider-section .right-btn-slider { right: 0%; }

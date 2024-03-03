@@ -12,19 +12,17 @@
 .audience {
   font-size: 1.4rem;
   display: flex;
-  gap: 20px;
+  gap: 25px;
 }
 
 .audience li {padding: 10px 2px;}
 
-.audience li:nth-child(1) {
-  border-bottom: 2px solid black;
-}
+.audience li:nth-child(1) {border-bottom: 2px solid black;}
 
 
 .UI {
   display: flex;
-  gap: 22px;
+  gap: 25px;
   font-size: 0.8rem;
 }
 
@@ -40,6 +38,4 @@
   height: 24px;
 }
 
-.UI p {
-  text-transform: uppercase;
-}
+.UI p {text-transform: uppercase;}

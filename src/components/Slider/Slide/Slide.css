@@ -1,0 +1,25 @@
+.slide {
+
+}
+.slide img {
+  width: 1360px;
+  height: 482px;
+}
+.slide p {
+  position: absolute;
+  bottom: 80px;
+
+  padding: 8px 24px;
+  height: 90px;
+
+  font-size: 4.8rem;
+  font-weight: 700;
+  color: white;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  overflow: hidden;
+
+}
