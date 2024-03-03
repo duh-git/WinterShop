@@ -4,7 +4,7 @@ export default function Delivery() {
   return (
     <section className='header__delivery'>
       <div className="region-selector">
-        <img src="./geo-point.svg" alt="" />
+        <img src="./header-icon/geo-point.svg" alt="" />
         <label htmlFor="region">Ваш регион доставки:</label>
         <select name="region" id="region">
           <option value="Moscow">Москва</option>
@@ -18,9 +18,9 @@ export default function Delivery() {
         <li><a href="#">Блоги</a></li>
       </ul>
       <ul className='about-delivery'>
-        <li><img src="./truck.svg" alt="" /><a href="">Бесплатная доставка *</a></li>
-        <li><img src="./card.svg" alt="" /><a href="">Оплата при получении</a></li>
-        <li><img src="./bag.svg" alt="" /><a href="">Возврат в течение 14 дней</a></li>
+        <li><img src="./header-icon/truck.svg" alt="" /><a href="">Бесплатная доставка *</a></li>
+        <li><img src="./header-icon/card.svg" alt="" /><a href="">Оплата при получении</a></li>
+        <li><img src="./header-icon/bag.svg" alt="" /><a href="">Возврат в течение 14 дней</a></li>
       </ul>
     </section>
   );

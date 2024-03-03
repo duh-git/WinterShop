@@ -8,29 +8,29 @@ export default function Main() {
           <li><a href="#">Женщинам</a></li>
           <li><a href="#">Детям</a></li>
         </ul>
-        <img src="./logo.svg" alt="" />
+        <img src="./header-icon/logo.svg" alt="" />
         <ul className="UI">
           <li>
             <a href="#">
-              <img src="./user.svg" alt="" />
+              <img src="./header-icon/user.svg" alt="" />
               <p>Войти</p>
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="./favorite.svg" alt="" />
+              <img src="./header-icon/favorite.svg" alt="" />
               <p>Избранное</p>
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="./cart.svg" alt="" />
+              <img src="./header-icon/cart.svg" alt="" />
               <p>Корзина</p>
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="./search.svg" alt="" />
+              <img src="./header-icon/search.svg" alt="" />
               <p>Поиск</p>
             </a>
           </li>
